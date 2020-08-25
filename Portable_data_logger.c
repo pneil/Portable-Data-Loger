@@ -1,6 +1,5 @@
 //-----------------------------------------------------------------------------
 // Neelkanth Patel
-// 1001571998
 // Hardware Target
 //-----------------------------------------------------------------------------
 
@@ -425,7 +424,7 @@ void wrDataPeriodic()
 }
 
 /*TImer1ISR to store sample value on interrupt on given periodic time*/
-void timer1Isc()
+void timer1Isr()
 {
 
         if (INPUT == 't')
